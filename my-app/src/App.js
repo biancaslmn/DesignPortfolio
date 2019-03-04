@@ -4,21 +4,32 @@ import './App.css';
 import Body from "./components/body"
 import NavBar from "./components/navbar"
 import SideBar from './components/sidebar';
+import Jumbotron from "./components/jumbotron";
+import JumbotronTwo from "./components/about";
+import Carousel from "./components/review"
 
+//import { Card } from 'reactstrap';
+//import { CardGroup } from 'reactstrap';
+//import PortfolioCard from "./components/card"
 
 class App extends Component {
   render(){
       return(
           <div className="App">
         
+        
         <Router>
               <div>
               <Route path="/" component={NavBar}/>
-                 <Body></Body>
-           
+             
+              <Body></Body>
+              <Carousel></Carousel>
+             
+              <JumbotronTwo></JumbotronTwo>
+              <Jumbotron></Jumbotron>
               </div>
               </Router>
-        
+              
           </div>
       )
   }

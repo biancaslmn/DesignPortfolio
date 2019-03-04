@@ -1,19 +1,33 @@
 import React from 'react';
-import designbackground from './designbackground.png'; // Tell Webpack this JS file uses this image
 import Nav from "./navbar";
 import SideBar from "./sidebar"
 
-console.log(designbackground); // /designbackground.png
+import Mentor from "./Mentor.png"
+import GoFeedMe from "./gofeedme-front.png"
+import Jumbotron from "./jumbotron";
 
-function Body() {
-  // Import result is the URL of your image
-  return <img className="background-img" src={designbackground} style= {{ width:"100%" }} alt="designbackground" href="/" />;
-  
-  
-}
-
-
-
+const Body = props => (
+  <div className="card" id="profileCard">
+   <div class="row">
+    <div  class="column">
+    <div className="img-container">
+      <img src={Mentor} style= {{ width:"100%" , marginLeft: "0px" }}  alt="Mentor" href="/" />
+    </div>
+    <div className="content">
+      <h3></h3>
+      </div>
+    </div>
+    <div class="column"> 
+    <div className="img-container2">
+      <img src={GoFeedMe} style= {{ width:"90%" }} alt="GoFeedMe" href="/" />
+    </div>
+    <div className="content">
+      <h3></h3>
+    </div>
+    </div>
+</div>
+</div>
+);
 
 
 export default Body;
