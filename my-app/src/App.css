@@ -50,6 +50,8 @@ body{
   width: 80%;
   margin-top: 10%;
   padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-bottom: 8%;
   background-color: #d2cdc9!important;
 
@@ -72,21 +74,27 @@ body{
 text-align: left;
 padding-left: 60px;
 }
+
 .content{
   text-align: left;
 }
 
 .img-container{
-  width: 80%;
-  margin-top: 10%;
+  width: 100%;
+  margin-top: 15%;
   margin-bottom: 20px;
-  margin-left: 20%!important;
+margin-left: 15px
 }
 
 .img-container2{
-  width: 80%;
-  margin-top: 10%;
+  width: 100%;
+  margin-top: 15%;
+  margin-left:15px
+}
 
+.img-container3{
+  width: 100%;
+  margin-top: 15%;
 
 }
 
@@ -103,12 +111,13 @@ color: #545454
 .holder{
   margin-top:0px;
   padding-top:60px;
-  padding-bottom: 8px;
+  padding-bottom: 20px;
   padding-left: 130px;
   padding-right: 65px;
 background-color: transparent;
 color: #545454 
 }
+
 
 #part1, #part2, #part3, #part4{
 padding-left: 65px;
@@ -117,11 +126,22 @@ padding-top: 30px;
 text-align: left
 }
 
-
+.content{
+  margin-top:30px;
+text-align: left;
+padding-right: 20px;
+padding-left:20px;
+font-size: 14px
+}
 
 .column {
   float: left;
   width: 50%;
+}
+
+.column1 {
+  float: left;
+  width: 33.33%!important;
 }
 
 #section1, #section2, #section3{
@@ -136,8 +156,25 @@ text-align: left
 
 }
 
+.formPage{
+  margin-top: 60px;
+  color: #545454;
+  width: 680px;
+  margin-left: 50%;
+  margin-bottom: 40px;
+}
+
+.btn-outline-secondary{
+  width: 150px!important;
+  margin-top: 10px!important;
+  margin: 0 auto!important;
 
 
+}
+
+.textarea.form-control{
+  width: 680px;
+}
 
 .bm-item {
   display: inline-block;
@@ -160,6 +197,17 @@ text-align: left
   top: 36px;
 }
 
+.social-media{
+background-color: #c3aead;
+color: #545454;
+padding-top:80px;
+padding-bottom: 80px;
+}
+
+.social-icons{
+  margin-top: 60px;
+  margin-left: 80px;
+}
 .bm-burger-bars {
   background-color: #d2cdc9;
 }

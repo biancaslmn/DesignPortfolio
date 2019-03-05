@@ -9,19 +9,19 @@ export default props => {
         Portfolio
       </a>
 
+      <a className="menu-item" href="/References">
+        References
+      </a>
+
+
+      <a className="menu-item" href="/Services">
+       Services
+      </a>
+
       <a className="menu-item" href="/About">
         About
       </a>
       
-      <a className="menu-item" href="/Services">
-        Services
-      </a>
-
-    
-
-      <a className="menu-item" href="/Reviews">
-       Reviews
-      </a>
 
       <a className="menu-item" href="/Contact">
         Contact

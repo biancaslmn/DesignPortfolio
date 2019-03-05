@@ -8,7 +8,7 @@ import AnalyticIcon from "./analyticIcon.png"
 
 const JumbotronTwo = () => (
 	<header className = "holder">
-      <h1>What I do</h1>
+    
     <div class="row">
 
     <div  class="column" id="part1">

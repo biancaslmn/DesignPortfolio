@@ -13,13 +13,14 @@ const Carousel = props => (
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="..." alt="Feature"/>
+      <a class="d-block w-100" src="" >Feature</a>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Recommendation"/>
+      <a class="d-block w-100" src="" >Recommendation</a>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Github"/>
+
+      <a class="d-block w-100" src="..." >Example</a>
     </div>
   </div>
   <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
