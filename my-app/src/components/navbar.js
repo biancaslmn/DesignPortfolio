@@ -63,7 +63,7 @@ class MenuAppBar extends React.Component {
             <IconButton className={classes.menuButton} color="#c3aead" aria-label="Menu" style={{ width: "20px!important" }}>
             </IconButton>
            <Typography variant="h6" color="#c3aead" className={classes.grow} style={{ color: "#c3aead" }}>
-            
+          
             </Typography>
             {auth && (
               <div>

@@ -1,5 +1,8 @@
 import React from 'react';
 
+import Quote1 from "./quote1.png";
+import Quote2 from "./quote2.png";
+
 const Carousel = props => (
  
 <div class="main-carousel">
@@ -13,10 +16,12 @@ const Carousel = props => (
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <a class="d-block w-100" src="" >Feature</a>
+      <a class="d-block w-100" href="https://www.trilogyed.com/blog/yes-girls-do-code-and-bianca-salomon-is-making-a-career-proving-it/" >    <img src={Quote1} style= {{ width:"65%" , marginLeft: "0px" }}  alt="Quote1" href="/" />
+</a>
     </div>
     <div class="carousel-item">
-      <a class="d-block w-100" src="" >Recommendation</a>
+      <a class="d-block w-100" src="" ><img src={Quote2} style= {{ width:"65%" , marginLeft: "0px" }}  alt="Quote2" href="/" />
+       </a>
     </div>
     <div class="carousel-item">
 

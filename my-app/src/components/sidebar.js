@@ -9,16 +9,16 @@ export default props => {
         Portfolio
       </a>
 
-      <a className="menu-item" href="/References">
+      <a className="menu-item" href="#top">
         References
       </a>
 
 
-      <a className="menu-item" href="/Services">
+      <a className="menu-item" href="#middle">
        Services
       </a>
 
-      <a className="menu-item" href="/About">
+      <a className="menu-item" href="#bottom">
         About
       </a>
       

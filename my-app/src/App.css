@@ -48,6 +48,7 @@ body{
 .card{
   margin: 0 auto;
   width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin-top: 10%;
   padding-bottom: 60px;
   padding-left: 30px;
@@ -80,6 +81,7 @@ padding-left: 60px;
 }
 
 .img-container{
+
   width: 100%;
   margin-top: 15%;
   margin-bottom: 20px;
@@ -87,19 +89,21 @@ margin-left: 15px
 }
 
 .img-container2{
+
   width: 100%;
   margin-top: 15%;
   margin-left:15px
 }
 
 .img-container3{
+
   width: 100%;
   margin-top: 15%;
 
 }
 
 .header{
-  margin-top:40px;
+  margin-top:0px;
   padding-left:45px;
   padding-right:45px;
   padding-top:80px;
@@ -111,7 +115,7 @@ color: #545454
 .holder{
   margin-top:0px;
   padding-top:60px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding-left: 130px;
   padding-right: 65px;
 background-color: transparent;
@@ -127,11 +131,13 @@ text-align: left
 }
 
 .content{
+
   margin-top:30px;
 text-align: left;
 padding-right: 20px;
 padding-left:20px;
-font-size: 14px
+font-size: 14px;
+
 }
 
 .column {
@@ -150,8 +156,8 @@ font-size: 14px
 }
 
 .main-carousel{
-  padding-top: 280px;
-  padding-bottom: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: #c3aead;
 
 }
@@ -160,7 +166,7 @@ font-size: 14px
   margin-top: 60px;
   color: #545454;
   width: 680px;
-  margin-left: 50%;
+  margin-left: 40%;
   margin-bottom: 40px;
 }
 
@@ -205,9 +211,14 @@ padding-bottom: 80px;
 }
 
 .social-icons{
-  margin-top: 60px;
-  margin-left: 80px;
+  margin-top: 40px;
+  margin-left: 5px;
 }
+
+.copyright{
+  margin-top: 60px;
+}
+
 .bm-burger-bars {
   background-color: #d2cdc9;
 }
